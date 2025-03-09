@@ -7,7 +7,7 @@ pipeline {
     stages {
         stage('Clone') {
             steps {
-                git branch:'master',url:'https://github.com/alejandrolf20/ic-diccionario'
+                git branch:'master',url:'https://github.com/alejandrolf20/ic-diccionario.git'
             }
         }
         stage('Install') {
